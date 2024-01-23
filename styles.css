@@ -1,0 +1,153 @@
+  /* Style the score box */
+
+
+.container {
+    width: 860px;
+}
+
+img {
+    max-width : 100%;
+    height: auto;
+    display: block;
+}
+
+
+#scoreBox {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+p.box {
+    font-size: 20px;
+}
+
+#word-container {
+    width: 74px;
+    height: 15px;
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 525px;
+    left: 8px;
+}
+
+button {
+    background-color: #3498db;
+    border-radius: 50%;
+    border: 2px solid black;
+    color: black;
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#start-button {
+    background-color: #3498db;
+    border-radius: 0%;
+    border: 2px solid black;
+    color: black;
+    font-size: 30px;
+    color: white;
+
+}
+
+#start-button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#FrontSight {
+    position: absolute;
+    top: 100px;
+    left: 98px;
+}
+
+#Barrel {
+    position: absolute;
+    top: 20px;
+    left: 333px;
+}
+
+#SlideStop {
+    position: absolute;
+    top: 108px;
+    left: 506px;
+}
+
+#RearSight {
+    position: absolute;
+    top: 95px;
+    left: 619px;
+}
+
+#Hammer {
+    position: absolute;
+    top: 105px;
+    left: 712px;
+}
+
+#Safety {
+    position: absolute;
+    top: 193px;
+    left: 740px;
+}
+
+#Grip {
+    position: absolute;
+    top: 359px;
+    left: 767px;
+}
+
+#Magazine {
+    position: absolute;
+    top: 544px;
+    left: 640px;
+}
+
+#MagazineRelease {
+    position: absolute;
+    top: 425px;
+    left: 470px;
+}
+
+#Trigger {
+    position: absolute;
+    top: 345px;
+    left: 310px;
+}
+
+#DisassemblyLever {
+    position: absolute;
+    top: 275px;
+    left: 310px;
+}
+
+#Slide {
+    position: absolute;
+    top: 195px;
+    left: 45px;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
